@@ -6,8 +6,8 @@ module.exports = {
 };
 
 function success(item) {
-  return (item.enchancement === 20) ? item : 
-    { ...item, enchancement: item.enchancement + 1 };
+  return (item.enhancement === 20) ? item : 
+    { ...item, enhancement: item.enhancement + 1 };
 }
 
 function fail(item) {
